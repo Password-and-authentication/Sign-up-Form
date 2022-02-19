@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: bestFont;
+    src: url("/home/kyopa/repos/Sign-up-Form/HipstersRoundedPersonalUse-d987V.ttf");
+}
+
+html, body {
+    background: #000;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main {
+    width: 1150px;
+    height: 100%;
+    background: rgb(184, 223, 255);
+    display: flex;
+}
+
+#left {
+    width: 40%;
+    display: block;
+   
+}
+
+#left img{
+    width: 100%;
+    display: block;
+}
+
+#background {
+    width: 100%;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: -730px; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: bestFont;
+    letter-spacing: .3rem;
+}
+
+#right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 60%;
+    flex-direction: column;
+}
+
+#text {
+    width: 85%;
+    margin-left: 35px;
+    color: white;
+    margin-bottom: 11%;
+}
+
+fieldset {
+    border: 0;
+}
+
+.form {
+    background-color: rgb(100, 198, 223);
+    width: 100%;
+    height: 230px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+legend {
+    font-size: 1.3rem;
+}
+
+form {
+    padding-left: 30px;
+    padding-top: 14px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+}
+
+input {
+    padding-right: 10px;
+    padding: 2px
+}
+
+form  div {
+    display: inline-block;
+    margin-right: 60px;
+    
+}
+
+button {
+    margin-top: 27px;
+    margin-left: 40px;
+    padding: 12px;
+    padding-left: 44px;
+    padding-right: 44px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: rgb(168, 231, 247);
+}
+
+.log-in {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+input:focus {
+    outline: 1.5px solid rgb(150, 150, 248)
+    
+}
+
+
+
